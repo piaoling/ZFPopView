@@ -28,12 +28,12 @@
 
 - (IBAction)showTitlePopView:(id)sender
 {
-    [ZFPopView popWithTitle:@"赵峰是最棒的"];
+    [ZFPopView popWithTitle:@"ZF is naive and simple"];
 }
 
 - (IBAction)showTitleMessagePopView:(id)sender
 {
-    [ZFPopView popWithTitle:@"赵峰是最棒的" message:@"但是赵峰的老婆某某欣，要多穷矮矬有多矬。。。。。"];
+    [ZFPopView popWithTitle:@"ZF is naive and simple" message:@"ZF's wife, however, is a beauty....."];
 }
 
 - (IBAction)showCustomViewPopView:(id)sender
@@ -61,8 +61,8 @@
     tmpLabel.numberOfLines = 0;
     [tmpView addSubview:tmpLabel];
     
-    [ZFPopView popWithTitle:@"赵峰是最棒的"
-                    message:@"但是赵峰的老婆某某欣，要多穷矮矬有多矬。。。。。"
+    [ZFPopView popWithTitle:@"ZF is naive and simple"
+                    message:@"ZF's wife, however, is a beauty....."
                 contentView:tmpView];
 }
 

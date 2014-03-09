@@ -29,8 +29,8 @@ See [ZFPopView.h](Classes/ZFPopView.h) for the complete API.
 ### An Example
 
 ```Objective-C
-[ZFPopView popWithTitle:@"赵峰是最挫的"
-                message:@"但是赵峰的老婆某某欣，要多高大上有高大上。。。。。"
+[ZFPopView popWithTitle:@"Feng is naive and simple"
+                message:@"Feng's wife, however, is a beauty....."
             contentView:tmpView];
 ```
 
