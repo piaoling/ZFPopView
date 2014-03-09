@@ -21,6 +21,8 @@
 		D58167A218CC0EFE00C5133A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D581678418CC0EFE00C5133A /* UIKit.framework */; };
 		D58167AA18CC0EFE00C5133A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D58167A818CC0EFE00C5133A /* InfoPlist.strings */; };
 		D58167AC18CC0EFE00C5133A /* ZFPopViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D58167AB18CC0EFE00C5133A /* ZFPopViewTests.m */; };
+		D58167B818CC150300C5133A /* ZFPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = D58167B718CC150300C5133A /* ZFPopView.m */; };
+		D58167BA18CC179100C5133A /* ExampleImage.png in Resources */ = {isa = PBXBuildFile; fileRef = D58167B918CC179100C5133A /* ExampleImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		D58167A718CC0EFE00C5133A /* ZFPopViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZFPopViewTests-Info.plist"; sourceTree = "<group>"; };
 		D58167A918CC0EFE00C5133A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D58167AB18CC0EFE00C5133A /* ZFPopViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFPopViewTests.m; sourceTree = "<group>"; };
+		D58167B618CC150300C5133A /* ZFPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPopView.h; sourceTree = "<group>"; };
+		D58167B718CC150300C5133A /* ZFPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPopView.m; sourceTree = "<group>"; };
+		D58167B918CC179100C5133A /* ExampleImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ExampleImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,12 +117,14 @@
 		D581678618CC0EFE00C5133A /* ZFPopView */ = {
 			isa = PBXGroup;
 			children = (
+				D58167B518CC150300C5133A /* ZFPopView */,
 				D581678F18CC0EFE00C5133A /* AppDelegate.h */,
 				D581679018CC0EFE00C5133A /* AppDelegate.m */,
 				D581679218CC0EFE00C5133A /* Main.storyboard */,
 				D581679518CC0EFE00C5133A /* ViewController.h */,
 				D581679618CC0EFE00C5133A /* ViewController.m */,
 				D581679818CC0EFE00C5133A /* Images.xcassets */,
+				D58167B918CC179100C5133A /* ExampleImage.png */,
 				D581678718CC0EFE00C5133A /* Supporting Files */,
 			);
 			path = ZFPopView;
@@ -150,6 +157,15 @@
 				D58167A818CC0EFE00C5133A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D58167B518CC150300C5133A /* ZFPopView */ = {
+			isa = PBXGroup;
+			children = (
+				D58167B618CC150300C5133A /* ZFPopView.h */,
+				D58167B718CC150300C5133A /* ZFPopView.m */,
+			);
+			path = ZFPopView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +246,7 @@
 			files = (
 				D581679918CC0EFE00C5133A /* Images.xcassets in Resources */,
 				D581678B18CC0EFE00C5133A /* InfoPlist.strings in Resources */,
+				D58167BA18CC179100C5133A /* ExampleImage.png in Resources */,
 				D581679418CC0EFE00C5133A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D58167B818CC150300C5133A /* ZFPopView.m in Sources */,
 				D581679718CC0EFE00C5133A /* ViewController.m in Sources */,
 				D581679118CC0EFE00C5133A /* AppDelegate.m in Sources */,
 				D581678D18CC0EFE00C5133A /* main.m in Sources */,
